@@ -1,6 +1,16 @@
 $(document).ready(function(){
-  $("#white").css("background-color", "white");
-  $("#blue").css("background-color", "blue");
-  $("#yellow").css("background-color", "yellow");
-  $("#green").css("background-color", "green");
+  
+
+  setTimeout(function(){ $("#yellow").css('background-color','yellow'); },300)
+  setTimeout(function(){ $("#yellow").css('background-color','gray'); },600)
+
+  setTimeout(function(){ $("#green").css('background-color','green'); },650)
+  setTimeout(function(){ $("#green").css('background-color','gray'); },950)
+  
+  setTimeout(function(){ $("#blue").css('background-color','blue'); },1000)
+  setTimeout(function(){ $("#blue").css('background-color','gray'); },1300)
+  
+  setTimeout(function(){ $("#white").css('background-color','white'); },1350)
+  setTimeout(function(){ $("#white").css('background-color','gray'); },1650)
+
 });
