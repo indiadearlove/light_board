@@ -13,4 +13,7 @@ $(document).ready(function(){
   setTimeout(function(){ $("#white").css('background-color','white'); },1350)
   setTimeout(function(){ $("#white").css('background-color','gray'); },1650)
 
+  setTimeout(function(){ $("#orange").css('background-color','orange'); },1700)
+  setTimeout(function(){ $("#orange").css('background-color','gray'); },2000)
+
 });
