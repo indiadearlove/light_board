@@ -1,1 +1,2 @@
-javascript
+$(document).ready(function(){
+});
